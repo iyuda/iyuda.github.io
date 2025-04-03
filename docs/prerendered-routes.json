@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/iyuda": {},
+    "/iyuda/contact": {},
+    "/iyuda/featured-projects": {},
+    "/iyuda/projects": {},
+    "/iyuda/resume": {},
+    "/iyuda/skills": {}
+  }
+}

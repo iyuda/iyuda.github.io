@@ -1,0 +1,2 @@
+export default `.hero,.skills,.projects,.resume,.contact{text-align:center;padding:20px}.btn{display:inline-block;padding:10px 20px;margin:10px;background:#007acc;color:#fff;text-decoration:none;border-radius:5px}
+`;
