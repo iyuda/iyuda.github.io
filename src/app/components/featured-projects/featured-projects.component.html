@@ -1,0 +1,12 @@
+<section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project" *ngFor="let project of projects">
+        <h3>{{ project.title }}</h3>
+        <p><strong>Tech Stack:</strong> {{ project.tech }}</p>
+        <p>{{ project.description }}</p>
+        <ul>
+            <li *ngFor="let feature of project.features">{{ feature }}</li>
+        </ul>
+        <p><strong>Impact:</strong> {{ project.impact }}</p>
+    </div>
+</section>

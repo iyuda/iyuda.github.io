@@ -1,0 +1,45 @@
+/* Ensure the navbar takes the full width */
+nav {
+    background-color: #333;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+  }
+  
+  /* Style the list and ensure proper spacing */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the list items */
+  nav ul li {
+    display: inline-block;
+  }
+  
+  /* Style the links */
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect */
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Ensure the navbar is properly aligned */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
