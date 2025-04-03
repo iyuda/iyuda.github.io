@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>IyudaPortfolio</title>
-  <base href="/iyuda/">
+  <base href="/iyuda">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>.contact{text-align:center;padding:20px}
