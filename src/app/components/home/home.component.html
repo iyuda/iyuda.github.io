@@ -1,7 +1,61 @@
-<div class="hero">
+<!-- <div class="hero">
     <h1>Hi, I’m <strong>Igor Yuda</strong></h1>
     <p>Full Stack .NET Developer | Blazor | Angular | C#</p>
     <a routerLink="/resume" class="btn">📄 View Resume</a>
     <a routerLink="/projects" class="btn">🚀 View Projects</a>
     <a href="https://github.com/iyuda" class="btn">🔗 GitHub</a>
-  </div>
+  </div> -->
+
+  <section class="hero" id="home">
+    <div class="content">
+      <h1>Hi, I'm Igor Yuda</h1>
+      <p>Full-Stack .NET Developer | Angular Enthusiast | Problem Solver</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+  
+<!--   <section class="section" id="skills">
+
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>C# / .NET Core</li>
+      <li>Angular</li>
+      <li>Blazor</li>
+      <li>SQL Server</li>
+      <li>Azure</li>
+      <li>REST APIs</li>
+    </ul>
+  </section>
+  
+ -->  <section class="section" id="projects">
+    <app-featured-projects></app-featured-projects>
+<!--     <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>ItorahAdmin</h3>
+        <p>Blazor Server admin portal with PDF guide management, category filtering, and bulk email campaigns via SendGrid.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Angular-based personal site deployed via GitHub Pages, showcasing my work and resume.</p>
+      </div>
+    </div> -->
+  </section>
+  <section id="skills">
+    <app-skills></app-skills>
+  </section>
+  
+  <section id="resume">
+    <app-resume></app-resume>
+  </section> 
+  
+
+<!--   <section class="section" id="resume">
+    <h2>Resume</h2>
+    <p>You can <a href="assets/Igor_Yuda_Resume.pdf" target="_blank">download my resume here</a>.</p>
+  </section> -->
+  
+  <section class="section" id="contact">
+      <app-contact></app-contact>
+  </section>
+  

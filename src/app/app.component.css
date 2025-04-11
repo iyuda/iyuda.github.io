@@ -8,4 +8,7 @@ body {
   h1 {
     color: #333;
   }
+  .main-content {
+    padding-top: 70px; // or whatever height your navbar is
+  }
   
