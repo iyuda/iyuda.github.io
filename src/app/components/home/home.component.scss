@@ -93,6 +93,14 @@
       border-radius: 8px;
     }
   }
+  .profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
   
   .projects-grid {
     display: grid;
