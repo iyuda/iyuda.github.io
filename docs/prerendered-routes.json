@@ -1,12 +1,12 @@
 {
   "routes": {
-    "/iyuda-portfolio": {},
-    "/iyuda-portfolio/contact": {},
-    "/iyuda-portfolio/featured-projects": {},
-    "/iyuda-portfolio/finance-dashboard": {},
-    "/iyuda-portfolio/finance-dashboard2": {},
-    "/iyuda-portfolio/projects": {},
-    "/iyuda-portfolio/resume": {},
-    "/iyuda-portfolio/skills": {}
+    "/": {},
+    "/contact": {},
+    "/featured-projects": {},
+    "/finance-dashboard": {},
+    "/finance-dashboard2": {},
+    "/projects": {},
+    "/resume": {},
+    "/skills": {}
   }
 }
