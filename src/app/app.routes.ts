@@ -6,7 +6,8 @@ import { FeaturedProjectsComponent } from './components/featured-projects/featur
 import { ResumeComponent } from './components/resume/resume.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
-import { FinanceDashboardComponent } from './components/finance-dashboard.component';
+import { FinanceDashboardComponent } from './components/finance-dashboard/finance-dashboard.component';
+import { FinanceDashboard2Component } from './components/finance-dashboard2/finance-dashboard2.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,5 +18,6 @@ export const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: '**', component: PagenotfoundComponent },
   { path: 'finance-dashboard', component: FinanceDashboardComponent },
+  { path: 'finance-dashboard2', component: FinanceDashboard2Component },
 ];
 

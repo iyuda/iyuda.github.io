@@ -6,6 +6,7 @@ import { ExperienceComponent } from "./components/experience/experience.componen
 import { HomeComponent } from "./components/home/home.component";
 import { AboutComponent } from "./components/about/about.component";
 import { ContactComponent } from "./components/contact/contact.component";
+import { FinanceDashboardComponent } from "./components/finance-dashboard/finance-dashboard.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { SkillsComponent } from "./components/skills/skills.component";
 import { ResumeComponent } from "./components/resume/resume.component";
@@ -14,7 +15,7 @@ import { ResumeComponent } from "./components/resume/resume.component";
   standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [NavbarComponent,  RouterModule, ExperienceComponent, HomeComponent, AboutComponent, ContactComponent,ResumeComponent, SkillsComponent, FooterComponent,  FeaturedProjectsComponent],  // Import NavbarComponent here
+  imports: [NavbarComponent,  RouterModule, ExperienceComponent, HomeComponent, AboutComponent,  ContactComponent,ResumeComponent, SkillsComponent, FooterComponent,  FeaturedProjectsComponent, FinanceDashboardComponent],  // Import NavbarComponent here
 })
 export class AppComponent {
   title = 'iyuda-portfolio';
