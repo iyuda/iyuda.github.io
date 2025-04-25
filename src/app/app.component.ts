@@ -15,7 +15,7 @@ import { ResumeComponent } from "./components/resume/resume.component";
   standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [NavbarComponent,  RouterModule, ExperienceComponent, HomeComponent, AboutComponent,  ContactComponent,ResumeComponent, SkillsComponent, FooterComponent,  FeaturedProjectsComponent, FinanceDashboardComponent],  // Import NavbarComponent here
+  imports: [NavbarComponent,  RouterModule, ExperienceComponent, HomeComponent, AboutComponent, FinanceDashboardComponent, ContactComponent,ResumeComponent, SkillsComponent, FooterComponent,  FeaturedProjectsComponent],  // Import NavbarComponent here
 })
 export class AppComponent {
   title = 'iyuda-portfolio';

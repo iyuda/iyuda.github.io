@@ -1,0 +1,46 @@
+<div class="finance-dashboard">
+    <h2 class="text-xl font-bold mb-4">📈 Finance Dashboard</h2>
+  
+    <!-- Stock Search -->
+    <div class="stock-search mb-4">
+      <input type="text" [(ngModel)]="stockSymbol" placeholder="Enter stock symbol (e.g., AAPL)"
+             class="border px-4 py-2 rounded w-64" />
+      <button (click)="searchStock()" class="ml-2 bg-blue-500 text-white px-4 py-2 rounded">
+        Search
+      </button>
+    </div>
+  
+    <!-- Stock Info Display -->
+    <div *ngIf="stockData" class="bg-white rounded shadow p-4 mb-6">
+      <h3 class="text-lg font-semibold">{{ stockData.name }} ({{ stockData.symbol }})</h3>
+      <p>Price: ${{ stockData.price }}</p>
+      <p>Change: {{ stockData.change }} ({{ stockData.percentChange }}%)</p>
+    </div>
+  
+    <!-- Chart Section Placeholder -->
+    <div class="chart-area bg-gray-100 p-4 rounded mb-6">
+      <h4 class="text-md font-semibold mb-2">📊 Price Chart</h4>
+      <canvas id="stockChart"></canvas>
+    </div>
+  
+    <!-- Top Gainers/Losers Section -->
+    <div class="market-movers grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="top-gainers bg-green-50 p-4 rounded">
+        <h4 class="font-semibold mb-2">Top Gainers</h4>
+        <ul>
+          <li *ngFor="let gainer of topGainers">
+            {{ gainer.symbol }} - ${{ gainer.price }} ({{ gainer.change }}%)
+          </li>
+        </ul>
+      </div>
+      <div class="top-losers bg-red-50 p-4 rounded">
+        <h4 class="font-semibold mb-2">Top Losers</h4>
+        <ul>
+          <li *ngFor="let loser of topLosers">
+            {{ loser.symbol }} - ${{ loser.price }} ({{ loser.change }}%)
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

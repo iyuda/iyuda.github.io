@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { ContactComponent } from '../contact/contact.component';
 import { FinanceDashboardComponent } from "../finance-dashboard/finance-dashboard.component";
-import { FinanceDashboard2Component } from "../finance-dashboard2/finance-dashboard2.component";
 import { FeaturedProjectsComponent } from "../featured-projects/featured-projects.component";
 import { ExperienceComponent } from "../experience/experience.component";
 import { AboutComponent } from "../about/about.component";
@@ -11,7 +10,7 @@ import { ResumeComponent } from "../resume/resume.component";
 
 @Component({
   selector: 'app-home',
-  imports: [ExperienceComponent, HomeComponent, AboutComponent, ContactComponent, FinanceDashboardComponent, ResumeComponent, FinanceDashboard2Component, SkillsComponent, FooterComponent,  FeaturedProjectsComponent],  // Import NavbarComponent here
+  imports: [ExperienceComponent, HomeComponent, AboutComponent, ContactComponent, FinanceDashboardComponent, ResumeComponent,  SkillsComponent, FooterComponent,  FeaturedProjectsComponent],  // Import NavbarComponent here
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
