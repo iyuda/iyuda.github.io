@@ -1,0 +1,38 @@
+<!-- Full-page centered container -->
+<div class="min-h-screen flex items-center justify-center bg-gray-100">
+  <div class="w-full max-w-xl p-6 bg-white rounded-lg shadow-lg">
+    <!-- Title -->
+    <h2 class="text-2xl font-bold text-center mb-6">📈 Stock Data</h2>
+
+    <!-- Stock Search -->
+    <div class="text-center mb-6">
+      <input
+        type="text"
+        [(ngModel)]="stockSymbol"
+        placeholder="Enter stock symbol (e.g., AAPL)"
+        class="border px-4 py-2 rounded w-2/3"
+      />
+      <button
+        (click)="searchStock()"
+        class="ml-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
+      >
+        Search
+      </button>
+    </div>
+
+    <!-- Stock Info Display -->
+    <div *ngIf="stockData" class="text-center mb-6">
+      <h3 class="text-lg font-semibold">
+        {{ stockData.name }} ({{ stockData.symbol }})
+      </h3>
+      <p>Price: {{ stockData.price }}</p>
+      <p>Change: {{ stockData.change }} ({{ stockData.percentChange }}%)</p>
+    </div>
+
+    <!-- Chart Section Placeholder -->
+    <!-- <div class="bg-gray-100 p-4 rounded">
+      <h4 class="text-md font-semibold mb-3 text-center">📊 Price Chart</h4>
+      <canvas id="stockChart" class="mx-auto"></canvas>
+    </div> -->
+  </div>
+</div>

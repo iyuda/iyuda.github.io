@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "https://yh-finance-complete.p.rapidapi.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "headers": {
+      "X-RapidAPI-Key": "your-api-key",
+      "X-RapidAPI-Host": "yh-finance-complete.p.rapidapi.com"
+    }
+  }
+}

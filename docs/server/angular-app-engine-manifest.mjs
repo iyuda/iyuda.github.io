@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/iyuda-portfolio',
   supportedLocales: {
   "en-US": ""
 },

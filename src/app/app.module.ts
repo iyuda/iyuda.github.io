@@ -5,16 +5,17 @@ import { FormsModule } from '@angular/forms';
 
 // Import your standalone component
 import { FinanceDashboardComponent } from './components/finance-dashboard/finance-dashboard.component';
-import { StockDataComponent } from './pages/stock-data/stock-data.component';
+import { StocksComponent } from './pages/stocks/stocks.component';
 import { FeaturedProjectsComponent } from './components/featured-projects/featured-projects.component';  // Adjust the path as necessary
 import { AppComponent } from './app.component';  // Main app component
 import { FinanceService } from './services/finance.service';
-
+import { RouterModule } from '@angular/router'
 @NgModule({
   
   imports: [
+    RouterModule,
     FinanceDashboardComponent,
-    StockDataComponent,
+    StocksComponent,
     FormsModule,
     AppComponent,
     BrowserModule,  // Import the BrowserModule

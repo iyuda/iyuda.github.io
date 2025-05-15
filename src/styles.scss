@@ -1,3 +1,6 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
 .hero, .skills, .projects, .resume, .contact {
     text-align: center;
     padding: 20px;
@@ -46,3 +49,35 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
+.group .submenu {
+  display: none;
+}
+
+.group:hover .submenu {
+  display: block;
+}
+.text-white {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem; /* space between links */
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+

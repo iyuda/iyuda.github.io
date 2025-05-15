@@ -16,7 +16,7 @@ export class StockDataComponent implements OnInit {
   constructor(private financeService: FinanceService) {}
 
   ngOnInit(): void {
-    this.loadTopGainers();
+    // this.loadTopGainers();
   }
 
   loadTopGainers(): void {

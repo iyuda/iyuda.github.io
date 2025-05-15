@@ -1,0 +1,19 @@
+ Top Gainers/Losers Section -->
+    <div class="market-movers grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-6">
+      <div class="top-gainers bg-green-50 p-4 rounded">
+        <h4 class="font-semibold mb-2">Top Gainers</h4>
+        <ul>
+          <li *ngFor="let gainer of topGainers">
+            {{ gainer.symbol }} - ${{ gainer.postMarketPrice }} ({{ gainer.postMarketChangePercent }}%)
+          </li>
+        </ul>
+      </div>
+      <div class="top-losers bg-red-50 p-4 rounded">
+        <h4 class="font-semibold mb-2">Top Losers</h4>
+        <ul>
+          <li *ngFor="let loser of topLosers">
+            {{ loser.symbol }} - ${{ loser.postMarketPrice }} ({{ loser.postMarketChangePercent }}%)
+          </li>
+        </ul>
+      </div>
+    </div>
