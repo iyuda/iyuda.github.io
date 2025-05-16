@@ -25,4 +25,4 @@ export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"7":"t0","17":"t1","22":"t2"},"c":{"7":[],"17":[],"22":[]}},{"c":{"2":[{"i":"c1515599449","r":1}]}},{"c":{"1":[{"i":"c2750020785","r":1}]}}]}</script></body></html><!-- Bootstrap CSS -->`;
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"7":"t2","17":"t3","22":"t4"},"c":{"7":[],"17":[],"22":[]}},{"c":{"2":[{"i":"c1515599449","r":1}]}},{"c":{"1":[{"i":"c2750020785","r":1}]}}]}</script></body></html><!-- Bootstrap CSS -->`;
